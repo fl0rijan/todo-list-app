@@ -1,0 +1,49 @@
+body{
+  background-color: rgba(121, 164, 196, 0.511);
+}
+.app{
+  text-align: center;
+  margin: auto;
+  padding: 0;
+  background-color: white;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.input-container Button{
+  width: 160px;
+}
+.header-text{
+  background-color: rgb(0, 8, 22);
+  padding: 15px;
+}
+.header-text h1{
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+.task-list{
+  float: right;
+  width: 100%;
+}
+.list{
+  display: flex;
+  padding: 10px 5px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px#AEB6BF;
+  text-align: left;
+}
+.list:hover{
+  background-color: #c8c8c84d;
+}
+.task-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.number-task{
+  margin-right: 10px;
+}
